@@ -503,8 +503,41 @@ input[placeholder] {
    .left {
     line-height: 60px;
    }
+   #imgc21{
+    height: 300px;
+    width: 200px;
+   }
+   #imgc22{
+    height: 300px;
+    width: 200px;
+   }
+   #imgc23{
+    height: 300px;
+    width:200px;
+   }
+   .headc2 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 140px;
+    transform: translateX(35px);
+}
+.parac2in1 {
+ transform: translateX(35px);
+ top: 200px;
+}
+
+.parac2in2 {
+    transform: translateX(35px);
+}
+.parac2in3 {
+    transform: translateX(35px);   
+}
    .container7{
     font-size: 16px;
+   }
+   .inside{
+    gap: 15px;
    }
    .parac7in1{
     font-size: 16px;
