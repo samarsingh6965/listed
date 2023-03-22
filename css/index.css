@@ -412,6 +412,7 @@ input[placeholder] {
     margin-left: 10px;
     margin-right: 6px;
     transition: all 0.6s;
+    position: relative;
 }
 #c61:hover{
     opacity: .6;
@@ -482,3 +483,39 @@ input[placeholder] {
     padding: 0px 5px;
 }
 /* footer ended */
+@media screen and (max-width:768px){
+    .containern {
+        width: 100%;
+    }
+    .container1{
+        top: 0px;
+    }
+    .navbar {
+        background-color: rgba(40, 40, 40, 0.307);
+    }
+   .search{
+    font-size: larger;
+    color: white;
+   }
+   input[placeholder] {
+    font-size: 16px;
+   }
+   .left {
+    line-height: 60px;
+   }
+   .container7{
+    font-size: 16px;
+   }
+   .parac7in1{
+    font-size: 16px;
+   }
+   .parac7in2{
+    font-size: 16px;
+   }
+   .parac7in3{
+    font-size: 16px;
+   }
+   .parac7in4{
+    font-size: 16px;
+   }
+}
