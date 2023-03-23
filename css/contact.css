@@ -5,6 +5,7 @@
     font-family: sans-serif;
     font-weight: 200;
 }
+
 /* navbar start */
 .containern {
     background-image: url(../img/big_image_1.jpg.webp);
@@ -15,7 +16,8 @@
     width: 100%;
     height: 650px;
 }
-.containern-main{
+
+.containern-main {
     width: 100%;
     height: 650px;
     position: absolute;
@@ -68,10 +70,12 @@
     list-style-type: none;
     padding-left: 5px;
 }
-.destinationli:hover{
+
+.destinationli:hover {
     color: white;
     background-color: blue;
 }
+
 .destinationa {
     text-decoration: none;
     display: block;
@@ -90,8 +94,9 @@
 #active {
     color: rgb(254, 253, 253);
 }
+
 /* Navbar End */
-.container1in{
+.container1in {
     width: 100%;
     height: 450px;
     color: rgb(255, 255, 255);
@@ -101,27 +106,32 @@
     justify-content: center;
     align-items: center;
 }
+
 /* header ended */
 /* container2 started */
-.container2{
+.container2 {
     width: 100%;
     display: flex;
     margin-top: 100px;
     margin-bottom: 300px;
 }
-.c2left{
+
+.c2left {
     padding-left: 120px;
 }
-.c2form{
+
+.c2form {
     margin-top: 40px;
 }
-.label{
+
+.label {
     width: 100%;
     font-size: 18px;
     line-height: 45px;
     opacity: .8;
 }
-input{
+
+input {
     font-size: 18px;
     height: 35px;
     width: 550px;
@@ -129,7 +139,8 @@ input{
     outline: none;
     padding-left: 10px;
 }
-textarea{
+
+textarea {
     padding-left: 10px;
     line-height: 45px;
     font-size: 20px;
@@ -138,9 +149,10 @@ textarea{
     border: 1px solid gray;
     outline: none;
 }
-.btn-send{
+
+.btn-send {
     color: white;
-    background-color:#007bff;
+    background-color: #007bff;
     border: none;
     font-size: 18px;
     height: 50px;
@@ -148,36 +160,45 @@ textarea{
     margin-top: 20px;
     transition: opacity 1s;
 }
-.btn-send:hover{
+
+.btn-send:hover {
     opacity: .8;
     cursor: pointer;
 }
-.c2right{
+
+.c2right {
     width: 100%;
 }
-.cclocatt{
+
+.cclocatt {
     display: flex;
     opacity: .6;
     margin-top: 40px;
 }
-.ccmail{
+
+.ccmail {
     display: flex;
     opacity: .6;
 }
-.ccphone{
+
+.ccphone {
     display: flex;
     opacity: .6;
 }
-.location{
+
+.location {
     margin-right: 20px;
 }
-.phoneicon{
+
+.phoneicon {
     margin-right: 20px;
 }
-.mail{
+
+.mail {
     margin-right: 20px;
 }
-.contactcard{
+
+.contactcard {
     margin-left: 120px;
 }
 
@@ -196,6 +217,7 @@ textarea{
     align-items: center;
     margin: 60px 0px;
 }
+
 .headc3 {
     font-weight: 440;
 }
@@ -206,6 +228,7 @@ textarea{
     font-size: 20px;
     opacity: .6;
 }
+
 /* container3 ended */
 /* container4 started */
 .container4 {
@@ -282,6 +305,7 @@ textarea{
     padding-top: 15px;
     font-size: 14px;
 }
+
 /* container4 ended */
 /* container5 started */
 .container5 {
@@ -318,9 +342,10 @@ textarea{
     margin-top: 40px;
     font-size: 21px;
 }
+
 /* container5 ended */
 /* footer started */
-.container7{
+.container7 {
     background-color: rgba(248, 248, 248, 0.842);
     margin-top: 25vh;
     width: 100%;
@@ -330,33 +355,39 @@ textarea{
     flex-direction: column;
     justify-content: center;
 }
-.inside{
+
+.inside {
     width: 88%;
     display: flex;
     justify-content: space-between;
     margin-left: 6%;
 }
-.iconsm{
+
+.iconsm {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
-.parac7in1{
+
+.parac7in1 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.parac7in2{
+
+.parac7in2 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.parac7in3{
+
+.parac7in3 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.footerin{
+
+.footerin {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -365,8 +396,72 @@ textarea{
     opacity: .7;
     padding-bottom: 60px;
 }
-.abhiin{
+
+.abhiin {
     padding: 0px 5px;
 }
-/* footer ended */
 
+/* footer ended */
+@media screen and (max-width:768px) {
+    .containern {
+        width: 100%;
+    }
+
+    .containern-main {
+        top: 0px;
+    }
+
+    .left {
+        line-height: 60px;
+    }
+
+    .navbar {
+        background-color: rgba(40, 40, 40, 0.307);
+    }
+    .container2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .c2right {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .cclocatt {
+        margin-top: 20px;
+    }
+    
+    .container3 {
+        margin-top: 100px;
+    }
+
+    .container7 {
+        font-size: 16px;
+    }
+
+    .inside {
+        gap: 15px;
+    }
+
+    .parac7in1 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .parac7in2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .parac7in3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .parac7in4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
