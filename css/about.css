@@ -5,6 +5,7 @@
     font-family: sans-serif;
     font-weight: 200;
 }
+
 /* navbar start */
 .containern {
     background-image: url(../img/big_image_1.jpg.webp);
@@ -15,7 +16,8 @@
     width: 100%;
     height: 650px;
 }
-.containern-main{
+
+.containern-main {
     width: 100%;
     height: 650px;
     position: absolute;
@@ -69,10 +71,12 @@
     padding-left: 5px;
     opacity: .7;
 }
-.destinationli:hover{
+
+.destinationli:hover {
     color: white;
     background-color: blue;
 }
+
 .destinationa {
     text-decoration: none;
     display: block;
@@ -90,8 +94,9 @@
 #active {
     color: rgb(254, 253, 253);
 }
+
 /* Navbar End */
-.container1in{
+.container1in {
     width: 100%;
     height: 450px;
     color: rgb(255, 255, 255);
@@ -101,20 +106,23 @@
     justify-content: center;
     align-items: center;
 }
+
 /* header ended */
 /* container2 started  */
-.container2{
+.container2 {
     margin-top: 120px;
     margin-bottom: 120px;
     width: 100%;
     position: relative;
 }
-.c2left{
+
+.c2left {
     margin-left: 6.5%;
     width: 45%;
     display: inline-block;
 }
-.c2right{
+
+.c2right {
     position: absolute;
     right: 150px;
     display: inline-block;
@@ -122,12 +130,14 @@
     height: 550px;
     background-color: white;
 }
-.c2head{
-    font-size:35px;
+
+.c2head {
+    font-size: 35px;
     word-spacing: 5px;
     margin-left: 35px;
 }
-.c2para{
+
+.c2para {
     word-wrap: initial;
     margin-top: 20px;
     font-size: 16px;
@@ -135,9 +145,10 @@
     margin-left: 35px;
     opacity: .6;
 }
+
 /* container2 ended */
 /* container3 started  */
-.container3{
+.container3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -145,12 +156,14 @@
     margin-top: 250px;
     margin-bottom: 50px;
 }
-.c3para{
+
+.c3para {
     margin-top: 10px;
     font-size: 17px;
     line-height: 25px;
     opacity: .6;
 }
+
 /* container3 ended */
 /* container4 started */
 .container4 {
@@ -228,6 +241,7 @@
     padding-top: 15px;
     font-size: 14px;
 }
+
 /* container4 ended */
 /* container5 started */
 .container5 {
@@ -264,9 +278,10 @@
     margin-top: 40px;
     font-size: 21px;
 }
+
 /* container5 ended */
 /* footer started */
-.container7{
+.container7 {
     background-color: rgba(248, 248, 248, 0.842);
     width: 100%;
     font-size: 20px;
@@ -275,33 +290,39 @@
     flex-direction: column;
     justify-content: center;
 }
-.inside{
+
+.inside {
     width: 88%;
     display: flex;
     justify-content: space-between;
     margin-left: 6%;
 }
-.iconsm{
+
+.iconsm {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
-.parac7in1{
+
+.parac7in1 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.parac7in2{
+
+.parac7in2 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.parac7in3{
+
+.parac7in3 {
     font-size: 20px;
     margin-top: 20px;
     line-height: 45px;
 }
-.footerin{
+
+.footerin {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -310,7 +331,89 @@
     opacity: .7;
     padding-bottom: 60px;
 }
-.abhiin{
+
+.abhiin {
     padding: 0px 5px;
 }
+
 /* footer ended */
+@media screen and (max-width:768px) {
+    .containern {
+        width: 100%;
+    }
+
+    .containern-main {
+        top: 0px;
+    }
+
+    .left {
+        line-height: 60px;
+    }
+
+    .navbar {
+        background-color: rgba(40, 40, 40, 0.307);
+    }
+    .container2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+    }
+    #c2in-image{
+        height: 500px;
+        width: 450px;
+    }
+    .c2left {
+        margin-left: 20px;
+    }
+    
+    .c2right {
+        position: absolute;
+        right: 40px;
+        display: inline-block;
+        width: 45%;
+        height: 450px;
+        background-color: white;
+    }
+    
+    .c2head {
+        font-size: 30px;
+        word-spacing: normal;
+        margin-left: 20px;
+    }
+    
+    .c2para {
+        word-wrap: normal;
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-left: 20px;
+        opacity: .9;
+    }
+    .container3 {
+        margin-top: 100px;
+    }
+
+    .container7 {
+        font-size: 16px;
+    }
+
+    .inside {
+        gap: 15px;
+    }
+
+    .parac7in1 {
+        font-size: 16px;
+    }
+
+    .parac7in2 {
+        font-size: 16px;
+    }
+
+    .parac7in3 {
+        font-size: 16px;
+    }
+
+    .parac7in4 {
+        font-size: 16px;
+    }
+}
