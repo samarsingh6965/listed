@@ -513,3 +513,108 @@ img:hover{
     padding: 0px 5px;
 }
 /* footer end  */
+@media screen and (max-width:768px){
+    .containern {
+        width: 100%;
+    }
+    .containern-main{
+        top: 0px;
+    }
+    .left {
+        line-height: 60px;
+    }
+    .navbar {
+        background-color: rgba(40, 40, 40, 0.307);
+    }
+    .c2in1{
+        padding: 5px 5px;
+    }
+    .text1{
+        font-size: 14px;
+    }
+    .c2in2{
+        padding: 5px 5px;
+    }
+    .text2{
+        font-size: 14px;
+    }
+    .c2in3{
+        padding: 5px 5px;
+    }
+    .text3{
+        font-size: 14px;
+    }
+    .c2in4{
+        padding: 5px 5px;
+    }
+    .text4{
+        font-size: 14px;
+    }
+    .c2in5{
+        padding: 5px 5px;
+    }
+    .text5{
+        font-size: 14px;
+    }
+    .c2in6{
+        padding: 5px 5px;
+    }
+    .text6{
+        font-size: 14px;
+    }
+    .c2in7{
+        padding: 5px 5px;
+    }
+    .text7{
+        font-size: 14px;
+    }
+    .c2in8{
+        padding: 5px 5px;
+    }
+    .text8{
+        font-size: 14px;
+    }
+    .c2in9{
+        padding: 5px 5px;
+    }
+    .text9{
+        font-size: 14px;
+    }
+    .c2in10{
+        padding: 5px 5px;
+    }
+    .text10{
+        font-size: 14px;
+    }
+    .c2in11{
+        padding: 5px 5px;
+    }
+    .text11{
+        font-size: 14px;
+    }
+    .c2in12{
+        padding: 5px 5px;
+    }
+    .text12{
+        font-size: 14px;
+    }
+   .container7{
+    font-size: 16px;
+    margin-top: 75px;
+   }
+   .inside{
+    gap: 15px;
+   }
+   .parac7in1{
+    font-size: 16px;
+   }
+   .parac7in2{
+    font-size: 16px;
+   }
+   .parac7in3{
+    font-size: 16px;
+   }
+   .parac7in4{
+    font-size: 16px;
+   }
+}
