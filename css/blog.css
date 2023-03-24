@@ -606,6 +606,7 @@ img:hover {
     .navbar {
         background-color: rgba(40, 40, 40, 0.307);
     }
+
     .container2 {
         margin-top: 40px;
     }
@@ -733,5 +734,252 @@ img:hover {
     .parac7in4 {
         font-size: 16px;
         line-height: 30px;
+    }
+}
+
+@media (max-width:650px) {
+    .containern {
+        height: 500px;
+    }
+
+    .container1 {
+        height: 500px;
+    }
+
+    .navbar {
+        height: 120px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .left {
+        width: 100%;
+        height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .navbarul {
+        font-size: 16px;
+    }
+
+    .navbarli {
+        list-style-type: none;
+        line-height: 50px;
+    }
+
+    .navbara {
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+
+    .destinationli {
+        font-size: 15px;
+    }
+
+    .destinationa {
+        opacity: .9;
+    }
+
+    .container1in {
+        text-align: center;
+        margin-top: 0px;
+        padding: 0px 20px;
+        color: white;
+    }
+
+    .heading1 {
+        font-size: 40px !important;
+    }
+
+    .para1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .part1 {
+        width: 100%;
+    }
+
+    .c2in1 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .c2in2 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img2 {
+        width: 100%;
+    }
+
+    .c2in3 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img3 {
+        width: 100%;
+    }
+
+    .c2in4 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img4 {
+        width: 100%;
+    }
+
+    .c2in5 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img5 {
+        width: 100%;
+    }
+
+    .c2in6 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img6 {
+        width: 100%;
+    }
+
+    .c2in7 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img7 {
+        width: 100%;
+    }
+
+    .c2in8 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img8 {
+        width: 100%;
+    }
+
+    .c2in9 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img9 {
+        width: 100%;
+    }
+
+    .c2in10 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img10 {
+        width: 100%;
+    }
+
+    .c2in11 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img11 {
+        width: 100%;
+    }
+
+    .c2in12 {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .img12 {
+        width: 100%;
+    }
+
+    #imgc2 {
+        width: 100%;
+    }
+
+    .part5 {
+        margin-top: 30px;
+    }
+
+    .btnprev {
+        height: 40px;
+        width: 90px;
+        font-size: 18px;
+    }
+
+    .btnnext {
+        height: 40px;
+        width: 90px;
+        font-size: 18px;
+    }
+
+
+
+    .container7 {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .inside {
+        flex-direction: column;
+    }
+
+    .parac7in1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in2 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in3 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footerin {
+        font-size: 12px;
+        opacity: .7;
+        padding-bottom: 60px;
+    }
+
+    .iconsm {
+        justify-content: start;
+        gap: 10px;
     }
 }

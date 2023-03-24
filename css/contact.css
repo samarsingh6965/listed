@@ -465,3 +465,290 @@ textarea {
         line-height: 30px;
     }
 }
+@media (max-width:650px) {
+    .containern {
+        height: 500px;
+    }
+
+    .container1 {
+        height: 500px;
+    }
+
+    .navbar {
+        height: 120px;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .left {
+        width: 100%;
+        height: 50px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .navbarul {
+        font-size: 16px;
+    }
+
+    .navbarli {
+        list-style-type: none;
+        line-height: 50px;
+    }
+
+    .navbara {
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+
+    .destinationli {
+        font-size: 15px;
+    }
+
+    .destinationa {
+        opacity: .9;
+    }
+
+    .container1in {
+        text-align: center;
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .heading1 {
+        font-size: 40px !important;
+    }
+
+    .para1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    
+    .c2left {
+        padding: 0px 10px;
+        width: 100%;
+    }
+    
+    .c2form {
+        margin-top: 20px;
+    }
+    
+    .label {
+        width: 100%;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    
+    input {
+        font-size: 16px;
+        height: 35px;
+        width: 100%;
+    }
+    
+    textarea {
+        height: 150px;
+        width: 100%;
+    }
+    
+    
+    .c2right {
+        width: 100%;
+        padding: 0px 10px;
+        float: left;
+    }
+    .cclocatt{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .ccmail{
+        margin-left: 0px;
+    }
+    .ccphone{
+        margin-left: 0px;
+    }
+    .contactcard{
+        margin: 0px;
+        line-height: 25px;
+    }
+    
+    .container3 {
+        margin-top: 50px;
+        font-size: 17px;
+    }
+
+    .headc3 {
+        font-size: 25px;
+    }
+
+    .parac3 {
+        font-size: 16px;
+    }
+
+    .container4 {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .headc4 {
+        padding-top: 2px;
+        padding-left: 5px;
+        font-size: 18px;
+    }
+
+    .parac4 {
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+
+    .imgc4in1 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .imgc4in2 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .imgc4in3 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .imgc4in4 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .imgc4in5 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .imgc4in6 {
+        padding: 0px 5px;
+        height: 270px;
+        width: 100%;
+    }
+
+    .container5 {
+        width: 100%;
+    }
+
+    .container5:hover {
+        height: 500px;
+    }
+
+    .c5in1 {
+        font-size: 16px;
+        padding-top: 100px;
+    }
+
+    .parac5 {
+        font-size: 16px;
+        padding-top: 10px;
+        height: auto;
+        line-height: 20px;
+    }
+
+    .btnc5 {
+        height: 40px;
+        width: 120px;
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .container6 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .c6in1 {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .c6in2 {
+        width: 100%;
+        margin: 0px;
+        padding: 0px 10px;
+    }
+
+    .btnc6in1 {
+        height: 40px;
+        width: 65px;
+        margin-right: 35px;
+    }
+
+    .bbfb {
+        font-size: larger;
+    }
+
+    .c6in2img {
+        margin-left: 0px;
+        margin-top: 8px;
+        height: 350px;
+        width: 100%;
+    }
+
+    .container7 {
+        width: 100%;
+    }
+
+    .inside {
+        flex-direction: column;
+    }
+
+    .parac7in1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in2 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in3 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .parac7in4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .footerin {
+        font-size: 12px;
+        opacity: .7;
+        padding-bottom: 60px;
+    }
+
+    .iconsm {
+        justify-content: start;
+        gap: 10px;
+    }
+}
