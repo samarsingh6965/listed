@@ -726,25 +726,27 @@ input[placeholder] {
     }
 
     .container2in2 {
+        margin-top: 25px;
         width: 100%;
     }
 
     .container2in3 {
+        margin-top: 25px;
         width: 100%;
     }
 
     #imgc21 {
-        height: 250px;
+        height: 300px;
         width: 100%;
     }
 
     #imgc22 {
-        height: 250px;
+        height: 300px;
         width: 100%;
     }
 
     #imgc23 {
-        height: 250px;
+        height: 300px;
         width: 100%;
     }
 
@@ -805,34 +807,40 @@ input[placeholder] {
         padding-left: 5px;
         padding-top: 5px;
     }
+
     .imgc4in1 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
+
     .imgc4in2 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
+
     .imgc4in3 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
+
     .imgc4in4 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
+
     .imgc4in5 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
+
     .imgc4in6 {
         padding: 0px 5px;
-        height: 185px;
+        height: 270px;
         width: 100%;
     }
 
@@ -888,12 +896,14 @@ input[placeholder] {
     .bbfb {
         font-size: larger;
     }
+
     .c6in2img {
         margin-left: 0px;
         margin-top: 8px;
-        height: 290px;
+        height: 350px;
         width: 100%;
     }
+
     .container7 {
         width: 100%;
     }
@@ -929,7 +939,8 @@ input[placeholder] {
         opacity: .7;
         padding-bottom: 60px;
     }
-    .iconsm{
+
+    .iconsm {
         justify-content: start;
         gap: 10px;
     }
